@@ -13,14 +13,17 @@ const dict = {
     'about.skills.title':'Competências técnicas',
     'about.edu.title':'Formação','about.edu.lic':'Licenciatura em Gestão Informática — IPB (2017–2021)','about.edu.mes':'Mestrado em Informática — IPB (2021–2023)',
     'about.stack.title':'Stack (logos oficiais)',
-    'projects.title':'Projetos','projects.p1.title':'Plataforma de Marcação — Barbershop','projects.p1.desc':'Agendamentos com admin, UI limpa e integrações.',
-    'projects.p2.title':'AirFast — App Android','projects.p2.desc':'Compra de bilhetes, APIs e testes.',
-    'projects.p3.title':'Site de Receitas (PHP + MySQL)','projects.p3.desc':'CRUD de receitas com carrinho e paginação.',
-    'projects.viewCode':'Ver código','projects.viewDemo':'Ver demo',
-    'exp.title':'Experiência','exp.altice.1':'Apoio ao cliente em faturação','exp.altice.2':'Apoio em novos contratos','exp.altice.3':'Suporte técnico',
-    'exp.barber.1':'Plataforma de marcações (UI/Admin)','exp.barber.2':'Integração com serviços e BD','exp.barber.3':'Boas práticas HTML/CSS/JS',
-    'exp.air.1':'Análise de requisitos','exp.air.2':'Desenvolvimento em Kotlin','exp.air.3':'Integração com APIs/BD e testes',
-    'contact.title':'Contacto','contact.form.title':'Enviar mensagem','contact.form.name':'Nome','contact.form.email':'Email','contact.form.message':'Mensagem','contact.form.send':'Enviar',
+    'projects.title':'Projetos','projects.tech':'Tecnologias','projects.features':'Funcionalidades','projects.deploy':'Deploy','projects.local':'Ambiente local','projects.viewCode':'Ver código','projects.viewDemo':'Ver demo',
+    'projects.p1.title':'Plataforma de Marcação — Prime Barber','projects.p1.desc':'Agendamentos online com área de administração, gestão de serviços/horários e interface responsiva.',
+    'projects.p1.f1':'Sistema de login e registo','projects.p1.f2':'Marcações com escolha de serviço, barbeiro, data e hora','projects.p1.f3':'Painel do cliente ("Minhas marcações")','projects.p1.f4':'Agenda do barbeiro','projects.p1.f5':'Gestão de perfil e uploads de imagem','projects.p1.f6':'Traduções (PT/EN)',
+    'projects.p2.title':'AirFast — App Android','projects.p2.desc':'App Android de reserva de voos com gestão de perfil.',
+    'projects.p2.f1':'Login e registo com validação','projects.p2.f2':'Pesquisa por origem/destino','projects.p2.f3':'Classe Económica / Executiva','projects.p2.f4':'Mapa interativo de assentos','projects.p2.f5':'Gestão de reservas','projects.p2.f6':'Perfil editável',
+    'projects.p3.title':'Site de Receitas (PHP + MySQL)','projects.p3.desc':'CRUD de receitas com carrinho de compras e filtros por país/categoria.',
+    'projects.p3.f1':'Listagem dinâmica de receitas','projects.p3.f2':'Login com verificação de sessão','projects.p3.f3':'Carrinho com sessão persistente','projects.p3.f4':'Filtros por país e categoria','projects.p3.f5':'Proteção em rotas privadas','projects.p3.f6':'Layout responsivo e moderno',
+    'exp.title':'Experiência','exp.altice.title':'Call Center Assistant — Altice Portugal','exp.altice.1':'Apoio ao cliente em faturação','exp.altice.2':'Apoio em novos contratos','exp.altice.3':'Suporte técnico',
+    'exp.barber.title':'Web Developer — Barbershop Project','exp.barber.1':'Plataforma de marcações (UI/Admin)','exp.barber.2':'Integração com serviços e BD','exp.barber.3':'Boas práticas HTML/CSS/JS',
+    'exp.air.title':'Software Developer — AirFast Project','exp.air.1':'Análise de requisitos','exp.air.2':'Desenvolvimento em Kotlin','exp.air.3':'Integração com APIs/BD e testes',
+    'contact.title':'Contacto','contact.form.title':'Enviar mensagem','contact.form.name':'Nome','contact.form.email':'Email','contact.form.message':'Mensagem','contact.form.send':'Enviar','contact.email':'Email','contact.linkedin':'LinkedIn','contact.github':'GitHub @IFernandes27','contact.location':'Rio de Mouro, Portugal',
   },
   en: {
     'nav.about':'About','nav.projects':'Projects','nav.experience':'Experience','nav.contact':'Contact',
@@ -35,14 +38,17 @@ const dict = {
     'about.skills.title':'Technical skills',
     'about.edu.title':'Education','about.edu.lic':'BSc in Management Informatics — IPB (2017–2021)','about.edu.mes':'MSc in Informatics — IPB (2021–2023)',
     'about.stack.title':'Stack (official logos)',
-    'projects.title':'Projects','projects.p1.title':'Booking Platform — Barbershop','projects.p1.desc':'Appointments with admin, clean UI and integrations.',
-    'projects.p2.title':'AirFast — Android app','projects.p2.desc':'Ticket purchase, APIs and tests.',
-    'projects.p3.title':'Recipes Website (PHP + MySQL)','projects.p3.desc':'Recipes CRUD with cart and pagination.',
-    'projects.viewCode':'View code','projects.viewDemo':'View demo',
-    'exp.title':'Experience','exp.altice.1':'Customer support in billing','exp.altice.2':'Support in new contracts','exp.altice.3':'Technical support',
-    'exp.barber.1':'Booking platform (UI/Admin)','exp.barber.2':'Integration with services and DB','exp.barber.3':'HTML/CSS/JS best practices',
-    'exp.air.1':'Requirements analysis','exp.air.2':'Development in Kotlin','exp.air.3':'API/DB integration & testing',
-    'contact.title':'Contact','contact.form.title':'Send a message','contact.form.name':'Name','contact.form.email':'Email','contact.form.message':'Message','contact.form.send':'Send',
+    'projects.title':'Projects','projects.tech':'Technologies','projects.features':'Features','projects.deploy':'Deploy','projects.local':'Local Environment','projects.viewCode':'View code','projects.viewDemo':'View demo',
+    'projects.p1.title':'Booking Platform — Prime Barber','projects.p1.desc':'Online bookings with admin panel, service/schedule management and responsive UI.',
+    'projects.p1.f1':'Login and registration system','projects.p1.f2':'Bookings with service, barber, date and time selection','projects.p1.f3':'Customer dashboard (\'My bookings\')','projects.p1.f4':'Barber calendar view','projects.p1.f5':'Profile management with image uploads','projects.p1.f6':'Multilanguage support (PT/EN)',
+    'projects.p2.title':'AirFast — Android App','projects.p2.desc':'AirFast — Android app for flight booking. Complete solution with search, reservation, and profile management.',
+    'projects.p2.f1':'Login and registration with validation','projects.p2.f2':'Search flights by origin and destination','projects.p2.f3':'Choose flight class (Economy/Business)','projects.p2.f4':'Interactive seat map','projects.p2.f5':'Manage reservations','projects.p2.f6':'Editable user profile',
+    'projects.p3.title':'Recipe Website (PHP + MySQL)','projects.p3.desc':'Recipe CRUD platform to explore traditional dishes from CPLP countries. Includes login, shopping cart, and dynamic filters.',
+    'projects.p3.f1':'Dynamic recipe listing','projects.p3.f2':'User login and session check','projects.p3.f3':'Shopping cart with session persistence','projects.p3.f4':'Filters by country and category','projects.p3.f5':'Login validation before checkout','projects.p3.f6':'Responsive layout with banners and custom cards',
+    'exp.title':'Experience','exp.altice.title':'Call Center Assistant — Altice Portugal','exp.altice.1':'Customer support in billing','exp.altice.2':'Support in new contracts','exp.altice.3':'Technical support',
+    'exp.barber.title':'Web Developer — Barbershop Project','exp.barber.1':'Booking platform (UI/Admin)','exp.barber.2':'Integration with services and DB','exp.barber.3':'HTML/CSS/JS best practices',
+    'exp.air.title':'Software Developer — AirFast Project','exp.air.1':'Requirements analysis','exp.air.2':'Development in Kotlin','exp.air.3':'API/DB integration & testing',
+    'contact.title':'Contact','contact.form.title':'Send a message','contact.form.name':'Name','contact.form.email':'Email','contact.form.message':'Message','contact.form.send':'Send','contact.email':'Email','contact.linkedin':'LinkedIn','contact.github':'GitHub @IFernandes27','contact.location':'Rio de Mouro, Portugal',
   }
 };
 
@@ -174,5 +180,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
     setTimeout(() => { window.location.href = a.href; }, 300);
   }, true);
 })();
-
-

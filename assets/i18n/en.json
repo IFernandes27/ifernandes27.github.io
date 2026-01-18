@@ -8,57 +8,42 @@
   },
   "projects": {
     "title": "Projects",
+    "tech": "Technologies",
+    "features": "Features",
+    "deploy": "Deploy",
+    "local": "Local Environment",
+    "viewCode": "View code",
+    "viewDemo": "View demo",
     "p1": {
       "title": "Booking Platform — Prime Barber",
       "desc": "Online bookings with admin panel, service/schedule management and responsive UI.",
-      "features": [
-        "Login and registration system",
-        "Bookings with service, barber, date and time selection",
-        "Customer dashboard ('My bookings')",
-        "Barber calendar view",
-        "Profile management with image uploads",
-        "Multilanguage support (PT/EN)"
-      ],
-      "deploy": "GitHub + Render",
-      "local": "Python (venv) + Django runserver + SQLite3"
+      "f1": "Login and registration system",
+      "f2": "Bookings with service, barber, date and time selection",
+      "f3": "Customer dashboard ('My bookings')",
+      "f4": "Barber calendar view",
+      "f5": "Profile management with image uploads",
+      "f6": "Multilanguage support (PT/EN)"
     },
     "p2": {
       "title": "AirFast — Android App",
       "desc": "AirFast — Android app for flight booking. Complete solution with search, reservation, and profile management.",
-      "features": [
-        "Login and registration with validation",
-        "Search flights by origin and destination",
-        "Choose flight class (Economy/Business)",
-        "Interactive seat map",
-        "Manage reservations",
-        "Editable user profile",
-        "Detailed booking information"
-      ],
-      "deploy": [
-        "Android: APK",
-        "Web: React + TypeScript + Node.js + MySQL (free hosting)"
-      ],
-      "local": "Android Studio"
+      "f1": "Login and registration with validation",
+      "f2": "Search flights by origin and destination",
+      "f3": "Choose flight class (Economy/Business)",
+      "f4": "Interactive seat map",
+      "f5": "Manage reservations",
+      "f6": "Editable user profile"
     },
     "p3": {
       "title": "Recipe Website (PHP + MySQL)",
       "desc": "Recipe CRUD platform to explore traditional dishes from CPLP countries. Includes login, shopping cart, and dynamic filters.",
-      "features": [
-        "Dynamic recipe listing with image, description and price",
-        "User login and session check",
-        "Filters by country and category",
-        "Shopping cart with session persistence",
-        "Login validation before checkout",
-        "Responsive layout with banners and custom cards"
-      ],
-      "deploy": [
-        "GitHub + Render (Frontend and Backend)",
-        "DB4Free (Free MySQL Cloud)"
-      ],
-      "local": "XAMPP + phpMyAdmin"
-    },
-    "viewCode": "View code",
-    "viewDemo": "Live demo"
+      "f1": "Dynamic recipe listing",
+      "f2": "User login and session check",
+      "f3": "Shopping cart with session persistence",
+      "f4": "Filters by country and category",
+      "f5": "Login validation before checkout",
+      "f6": "Responsive layout with banners and custom cards"
+    }
   },
   "footer": "Made with HTML + CSS + JS."
 }
