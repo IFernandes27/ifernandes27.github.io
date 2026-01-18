@@ -1,13 +1,80 @@
 <!doctype html>
 <html lang="pt">
 <head>
-  <!-- ... (Cabeçalho inalterado) ... -->
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Projetos — Inácio Fernandes</title>
+<meta name="description" content="Projetos em PHP, Kotlin/Android, SQL e mais." />
+<link rel="canonical" href="https://ifernandes27.github.io/" />
+
+<!-- Favicon / Manifest -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- OpenGraph / Twitter -->
+<meta property="og:title" content="Portfólio — Inácio Fernandes" />
+<meta property="og:description" content="Portfólio de Inácio Fernandes — Desenvolvedor Web & Sistemas de Informação." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ifernandes27.github.io/" />
+<meta property="og:image" content="https://ifernandes27.github.io/assets/img/og.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Portfólio — Inácio Fernandes" />
+<meta name="twitter:description" content="Portfólio de Inácio Fernandes — Desenvolvedor Web & Sistemas de Informação." />
+<meta name="twitter:image" content="https://ifernandes27.github.io/assets/img/og.svg" />
+
+<!-- Performance + CSS/JS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/app.js"></script>
+
+<!-- Métricas (OPCIONAL: escolha 1) -->
+<!-- GoatCounter: troque REPLACE pelo seu subdomínio GoatCounter e descomente -->
+<!-- <script data-goatcounter="https://REPLACE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+
+<!-- Google Analytics: troque G-XXXXXXXXXX e descomente -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+
 </head>
+
 <body data-page="projects">
   <header class="topbar slide-down">
-    <!-- ... (Header com botões de idioma, navegação e temas) ... -->
-  </header>
+    <div id="transition" aria-hidden="true"></div>
 
+    <div class="container nav">
+      <a class="brand" href="index.html">Inácio Afonso Pires Fernandes</a>
+      <nav class="links">
+        <a data-i18n="nav.about" href="about.html">Sobre</a>
+        <a data-i18n="nav.projects" href="projects.html">Projetos</a>
+        <a data-i18n="nav.experience" href="experience.html">Experiência</a>
+        <a data-i18n="nav.contact" href="contact.html">Contacto</a>
+
+        <a class="btn ghost" href="cv/EN-INACIO-FERNANDES-04-2025.pdf" download>📄 <span data-i18n="nav.cv">Baixar CV</span></a>
+
+        <div class="lang">
+          <button id="btn-pt" data-lang="pt">PT</button>
+          <button id="btn-en" data-lang="en">EN</button>
+        </div>
+
+        <button id="themeToggle" class="icon-btn" aria-label="Mudar tema">
+          <span class="sun" aria-hidden="true">☀️</span>
+          <span class="moon" aria-hidden="true">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
   <main class="container pad">
     <h1 class="reveal-up" data-i18n="projects.title">Projetos</h1>
     <section class="cards">
